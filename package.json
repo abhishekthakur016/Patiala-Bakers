@@ -1,0 +1,16 @@
+{
+  "name": "patiala-bakers",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Patiala Bakers storefront and bakery management platform (MERN)",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "dev:api": "npm run dev --prefix backend",
+    "dev:api:memory": "npm run dev:memory --prefix backend",
+    "dev:web": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "seed": "npm run seed --prefix backend",
+    "seed:fresh": "npm run seed:fresh --prefix backend",
+    "start": "npm start --prefix backend"
+  }
+}
